@@ -1,4 +1,13 @@
 apply plugin: "com.android.application"
+
+project.ext.envConfigFiles = [
+    productiondebug: ".env.production",
+    productionrelease: ".env.production",
+    developmentrelease: ".env.development",
+    developmentdebug: ".env.development",
+]
+
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 apply plugin: "com.facebook.react"
 
 /**
@@ -83,6 +92,7 @@ android {
         def date = new Date();
         def newName = date.format('MM_dd_yyyy')
         setProperty("archivesBaseName", "rntsboilerplate_" + versionName + "(" + versionCode + ")" + "_" + newName);
+        resValue "string", "build_config_package", "com.rntsboilerplate"
     }
     signingConfigs {
         debug {
@@ -95,6 +105,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -102,6 +113,21 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        development {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId 'com.rntsboilerplate.dev'
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.rntsboilerplate"
+        }
+        production {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId 'com.rntsboilerplate'
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.rntsboilerplate"
         }
     }
 }
