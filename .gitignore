@@ -68,3 +68,6 @@ yarn-error.log
 
 *.apk
 *.aab
+
+scripts/appIcon/dev
+scripts/appIcon/prod
