@@ -1,9 +1,11 @@
+import { useTheme } from '@/hooks';
 import { navigationRef } from '@/navigators/NavigationRef';
 import { Startup } from '@/screens';
+import { Layout } from '@/theme';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
-import { StatusBar, useColorScheme } from 'react-native';
+import { SafeAreaView, StatusBar } from 'react-native';
 import { AuthNavigator } from './Auth.navigator';
 import { AuthorizedNavigator } from './Authorized.navigator';
 
@@ -16,19 +18,22 @@ type ApplicationStackParamList = {
 const Stack = createStackNavigator<ApplicationStackParamList>();
 
 export function ApplicationNavigator() {
-  const darkMode = useColorScheme() == 'dark';
+  const { navigationColors, barStyle } = useTheme();
 
   return (
-    <NavigationContainer ref={navigationRef}>
-      <StatusBar barStyle={darkMode ? 'light-content' : 'dark-content'} />
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Startup" component={Startup} />
-        <Stack.Screen name="AuthNavigator" component={AuthNavigator} />
-        <Stack.Screen
-          name="AuthorizedNavigator"
-          component={AuthorizedNavigator}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <SafeAreaView
+      style={[Layout.fill, { backgroundColor: navigationColors.card }]}>
+      <NavigationContainer ref={navigationRef}>
+        <StatusBar barStyle={barStyle} />
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="Startup" component={Startup} />
+          <Stack.Screen name="AuthNavigator" component={AuthNavigator} />
+          <Stack.Screen
+            name="AuthorizedNavigator"
+            component={AuthorizedNavigator}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </SafeAreaView>
   );
 }

@@ -8,15 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNTSBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNTSBoilerplateTests.m */; };
+		06A86B62AC3A46999742E25F /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42037415B7E74F9891A4B310 /* Rubik-Medium.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		182FE95A2AAF23BE00091B07 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F43154FD1B5B4DAAB4A98A76 /* Rubik-Bold.ttf */; };
+		182FE95B2AAF23BE00091B07 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42037415B7E74F9891A4B310 /* Rubik-Medium.ttf */; };
+		182FE95C2AAF23BE00091B07 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA0E3F60AF241C4B08EB5E9 /* Rubik-Regular.ttf */; };
+		182FE95D2AAF23BE00091B07 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0C294715D44059A92A81BD /* Rubik-SemiBold.ttf */; };
 		1841E2422AA5FD6900124A42 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		1841E2432AA5FD6900124A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1841E2472AA5FD6900124A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		1841E2482AA5FD6900124A42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		67B99093ED8CA2159FE511B9 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1EB5007DC9761364723D99 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplate.a */; };
+		68726F283F8348209A4373B8 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA0E3F60AF241C4B08EB5E9 /* Rubik-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		971A06B5763E49468169CDF3 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F43154FD1B5B4DAAB4A98A76 /* Rubik-Bold.ttf */; };
+		AFE009CFFD9941539C3B1546 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0C294715D44059A92A81BD /* Rubik-SemiBold.ttf */; };
 		E0222B72E4211C0C0A5634FE /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C1D97EAB56BF3DC11F4880 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.a */; };
 		E8DCD2CFF2FB8C6A45469980 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7651A04150DDBB3F9B6F0729 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.a */; };
 /* End PBXBuildFile section */
@@ -35,6 +43,7 @@
 		00E356EE1AD99517003FC87E /* RNTSBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNTSBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNTSBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTSBoilerplateTests.m; sourceTree = "<group>"; };
+		0F0C294715D44059A92A81BD /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../src/assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNTSBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTSBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNTSBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNTSBoilerplate/AppDelegate.mm; sourceTree = "<group>"; };
@@ -46,6 +55,7 @@
 		1A3E5B1E65423E64729D2244 /* Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		310152C8AA184B0E5D5CFAB6 /* Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNTSBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplate/Pods-RNTSBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		42037415B7E74F9891A4B310 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../src/assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNTSBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplate/Pods-RNTSBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNTSBoilerplate-RNTSBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplate-RNTSBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplate-RNTSBoilerplateTests/Pods-RNTSBoilerplate-RNTSBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C1EB5007DC9761364723D99 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTSBoilerplateCommonPods-RNTSBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,10 +64,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNTSBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNTSBoilerplate-RNTSBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplate-RNTSBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplate-RNTSBoilerplateTests/Pods-RNTSBoilerplate-RNTSBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D782129075DB27E0E39985A /* Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.release.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.release.xcconfig"; sourceTree = "<group>"; };
+		9FA0E3F60AF241C4B08EB5E9 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../src/assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		B7C1D97EAB56BF3DC11F4880 /* libPods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTSBoilerplateCommonPods-RNTSBoilerplateDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C531B918960161B7E27E56C6 /* Pods-RNTSBoilerplateCommonPods-RNTSBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplateCommonPods-RNTSBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplate/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		DDA36C30B7F664014EF02878 /* Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests/Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F43154FD1B5B4DAAB4A98A76 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../src/assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 				1841E2502AA5FD6900124A42 /* RNTSBoilerplateDev-Info.plist */,
+				D3C5E75A47ED401C9EF9DFA6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -177,6 +190,17 @@
 				DDA36C30B7F664014EF02878 /* Pods-RNTSBoilerplateCommonPods-RNTSBoilerplateTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3C5E75A47ED401C9EF9DFA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F43154FD1B5B4DAAB4A98A76 /* Rubik-Bold.ttf */,
+				42037415B7E74F9891A4B310 /* Rubik-Medium.ttf */,
+				9FA0E3F60AF241C4B08EB5E9 /* Rubik-Regular.ttf */,
+				0F0C294715D44059A92A81BD /* Rubik-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +322,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				971A06B5763E49468169CDF3 /* Rubik-Bold.ttf in Resources */,
+				06A86B62AC3A46999742E25F /* Rubik-Medium.ttf in Resources */,
+				68726F283F8348209A4373B8 /* Rubik-Regular.ttf in Resources */,
+				AFE009CFFD9941539C3B1546 /* Rubik-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182FE95A2AAF23BE00091B07 /* Rubik-Bold.ttf in Resources */,
+				182FE95B2AAF23BE00091B07 /* Rubik-Medium.ttf in Resources */,
+				182FE95C2AAF23BE00091B07 /* Rubik-Regular.ttf in Resources */,
+				182FE95D2AAF23BE00091B07 /* Rubik-SemiBold.ttf in Resources */,
 				1841E2472AA5FD6900124A42 /* LaunchScreen.storyboard in Resources */,
 				1841E2482AA5FD6900124A42 /* Images.xcassets in Resources */,
 			);

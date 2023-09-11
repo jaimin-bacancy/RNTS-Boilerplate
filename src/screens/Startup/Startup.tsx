@@ -1,9 +1,12 @@
+import { useStyle } from '@/hooks';
 import { resetRoot } from '@/navigators/NavigationRef';
 import React, { useEffect } from 'react';
 import { ActivityIndicator, View } from 'react-native';
-import styles from './Startup.styles';
+import style from './Startup.styles';
 
 export function Startup(): JSX.Element {
+  const { styles } = useStyle(style);
+
   const init = async () => {
     await new Promise(resolve =>
       setTimeout(() => {

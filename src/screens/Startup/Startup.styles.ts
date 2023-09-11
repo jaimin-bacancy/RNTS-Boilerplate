@@ -1,11 +1,13 @@
+import { Layout } from '@/theme';
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+const styles = colors =>
+  StyleSheet.create({
+    container: {
+      ...Layout.fill,
+      ...Layout.center,
+      backgroundColor: colors.background,
+    },
+  });
 
 export default styles;

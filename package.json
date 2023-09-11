@@ -19,7 +19,8 @@
     "format": "yarn run lint --fix",
     "lint": "eslint --no-error-on-unmatched-pattern './src/**/*.{js,jsx,ts,tsx}'",
     "check-typescript": "tsc -p .",
-    "commit": "cz"
+    "commit": "cz",
+    "icons": "node scripts/assetIcons/icons.ts"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.7",
